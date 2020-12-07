@@ -1,6 +1,8 @@
 body {
     background-color: #f7f7f7;
-    font-family: verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40%;
+    margin: auto;
     }
 .foto-perfil {
     border-radius: 50%;
@@ -11,7 +13,10 @@ body {
     font-size: 40px;
     text-transform: uppercase;
     }
-a {text-decoration: line-through;}
+a {
+    text-decoration: line-through;
+    color: #505050;
+    }
 .post-title {
     font-size: 16px;
     font-style: italic;
@@ -30,9 +35,25 @@ a {text-decoration: line-through;}
 .post-content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
     }
 .imagem-post {
+    /* height: 30rem; */
     width: 100%;
     border-radius: 5%;
     margin-bottom: 15px;
     }
+.contact-list {
+    list-style-type: none;
+    padding-left: 15px;
+    }
+.contact-list li a {text-decoration: none;}
+}
+
+@media {} /* Porque tenho que abrir 2 media queries para que possa funcionar?*/
+
+@media (max-width: 650px) {
+    body {
+        width: 90%;
+    }
+}
