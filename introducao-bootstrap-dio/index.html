@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="estilo/estilo.css">
     <!--BOOTSTRAP-->
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <title>Document</title>
+    <title>Minha Página</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--<header>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,12 +46,73 @@
               </div>
             </div>
           </nav>
+    </header>-->
+    <header class="cabecalho">
+      <a href="#" class="logo-global">
+        <img class="logo-global" src="img/GLStudio.png" alt="logo global labs">
+      </a>
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a href="#quem-somos" class="nav-link">Quem somos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#parceiros" class="nav-link">Parceiros</a>
+            </li>
+            <li class="nav-item">
+              <a href="#servicos" class="nav-link">Serviços</a>
+          </li>
+            </ul>
+          </div>
+      </nav>
     </header>
     <section id="quem-somos">
-        <div class="container">
-            
+        <div class="container-fluid text-center class-quem-somos">
+            <h3>Quem somos</h3>
+            <img src="img/pexels-alex-green-5693381.jpg" alt="" width="400" height="400" class="rounded-circle">
+            <h3>Somos um time comprometido com os resultados</h3>
         </div>
     </section>
+    <section id="parceiros">
+      <div class="container-fluid text-center class-parceiros espacamento">
+        <h3>Parceiros</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="img/pexels-philip-boakye-910143.jpg" alt="" width="250" height="250" class="rounded-circle">
+            </div>
+            <div class="col-lg-4">
+              <img src="img/pexels-ketut-subiyanto-4650241.jpg" alt="" width="250" height="250" class="rounded-circle">
+            </div>
+            <div class="col-lg-4">
+              <img src="img/pexels-chermiti-mohamed-5653151.jpg" alt="" width="250" height="250" class="rounded-circle">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="servicos">
+      <div class="container-fluid text-center class-servicos">
+        <h3>Serviços</h3>
+        <div class="container espacamento">
+          <div class="row">
+            <div class="col-lg-6">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel dolores excepturi saepe suscipit possimus laborum numquam doloribus qui culpa? Dolorum iusto beatae a quibusdam officia delectus quo nulla ex molestiae!
+              <img src="img/aplicativo.jpg" alt="" height="250">
+            </div>
+            <div class="col-lg-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem asperiores quia eos aut odio, repudiandae doloremque accusantium et, eveniet iusto at alias! Obcaecati quaerat aliquam cum. A corporis nesciunt repellat.
+              <img src="img/website.jpg" alt="" height="250">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <footer class="container-fluid text-center bg-footer espacamento">
+      <p>Desenvolvido por Wanderson Melo</p>
+    </footer>
 </body>
 </html>
 
